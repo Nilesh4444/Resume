@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p.one{
+            border-style:solid;
+            border-color:red;
+        }
+        p.four{
+            border-style:dotted;
+            border-color:green;
+        }
+        p.sub{
+            border-style:dotted;
+            border-color:green;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+
+
+    <main>
+         <ul>
+            <li> Apple</li>
+            <ul>
+                <li> Color : red</li>
+                <li> season : winter</li>
+            </ul>
+            <li> Mango</li>
+            <ul>
+                <li> color : yello</li>
+                <li> season : spring</li>
+            </ul>
+            <li> Litchi</li>
+        </ul>
+        <ol>
+            <li> Apple</li>
+            <ul>
+                <li> Color : red</li>
+                <li> season : winter</li>
+            </ul>
+            <li> Mango</li>
+            <ul>
+                <li> color : yello</li>
+                <li> season : spring</li>
+            </ul>
+            <li> Litchi</li>
+        </ol>
+         
+
+
+          <table>
+            <thead>
+            <caption> student data</caption>
+            <tr>
+                <th colspan="2">
+                    Name
+                </th>
+                <th>
+                    Roll No
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>
+                    Nilesh
+                </td>
+                <td>
+                    1012
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    OM
+                </td>
+                <td>
+                    1011
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Sidhiraj
+                </td>
+                <td>
+                    1013
+                </td>
+            </tr>
+        </tbody>
+         </table>
+          <form action="/action.php">
+            <h4 class="four">Registration Form</h4>
+            <input type="text" placeholder="username" class="four">
+            <br><br>
+            <input type="password" placeholder="password">
+            <br><br>
+            <h4>Select your class</h4>
+            <br>
+
+            <lable for="101">
+            <input type="radio" value="class xi" name="class" id="101">class xi
+            </lable><br><br>
+            <label for="102">
+            <input type="radio" value="class xii" name="class" id="102">class xii
+            </label>
+            <br><br>
+            <h4>Select your subjects</h4>
+            <br>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="2">Math
+            </label>
+            <label for="physics">
+                <input type="checkbox" value="physics" name="subject" id="3">Physics
+            </label><label for="Chemistry">
+                <input type="checkbox" value="Chemistry" name="subject" id="4">Chemistry
+            </label><label for="bio">
+                <input type="checkbox" value="bio" name="subject" id="5">Biology
+            </label><br><br>
+            <select name="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+
+            </select>
+            <br><br>
+
+            <textarea name="feedback" id="6" placeholder="pease give your feedback here" rows="10">
+                Feedback
+            </textarea><br><br>
+            <input type="submit" value="sumit" class="sub">
+            
+
+
+            
+            
+
+         </form>
+         <p class="one">A solid red border</p>
+<p class="two">A solid green border</p>
+<p class="three">A dotted blue border</p>
+
+    </main> 
+    
+</body>
+</html>
